@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",                  // Mude de CommonJS para ESNext
+    "target": "ES2020",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+     "types": ["node"],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "resolveJsonModule": true,
+    
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  }
+}
