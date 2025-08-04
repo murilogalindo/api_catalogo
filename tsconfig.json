@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "ESNext",                  // Mude de CommonJS para ESNext
+    "module": "NodeNext",                  // Mude de CommonJS para NodeNext
     "target": "ES2020",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
      "types": ["node"],
     "sourceMap": true,
@@ -16,7 +16,6 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true,
-    
     "moduleDetection": "force",
     "skipLibCheck": true
   }
